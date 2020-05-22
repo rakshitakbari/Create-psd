@@ -1,0 +1,33 @@
+#home{
+    background-image: url(../images/hero_1.jpg);
+    background-position: 50% -95px;
+    position: relative;
+    .home-wrapper{
+        .hero-space{
+            min-height: 730px;
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: 400;
+            color: $white;
+        }
+        p {
+            color: $white;
+            font-size: 1.2rem;
+            line-height: 1.5;
+            a{
+                color: $theme-color;
+                text-decoration: none;
+            }
+        }
+        .btn.btn-md {
+            padding: 15px 30px;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: .1em;
+            color: #212529;
+            background-color: $theme-color;
+            border-color: $theme-color;
+        }
+    }
+}

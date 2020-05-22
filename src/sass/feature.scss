@@ -1,0 +1,45 @@
+#feature{
+    padding: 0 0 80px;
+    .bg-black {
+        background: $black !important;
+    }
+    &.ft-feature{
+        .ft-feature-1-content {
+            padding: 30px;
+            position: relative;
+            z-index: 10;
+        }
+        i{
+            padding-right: 10px;
+        }
+        span{
+            color: $white;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 1.2;
+        }
+        h3 {
+            font-size: 18px;
+            color: $white;
+            font-weight: 600;
+            line-height: 1.2;
+            margin-bottom: 10px;
+        }
+        p{
+            color: #737373;
+            margin-top: 0;
+            margin-bottom: 1rem;
+            line-height: 1.7;
+            color: #4d4d4d;
+            font-weight: 400;
+            font-size: 16px;
+            a {
+                color: $white;
+                text-decoration: underline;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 1.7;
+            }
+        }
+    } 
+}

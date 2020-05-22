@@ -1,0 +1,39 @@
+#blog{
+    padding: 80px 0;
+    .h-entry{
+        img {
+            margin-bottom: 30px;
+        }
+        h2{
+            font-size: 20px;
+            margin-bottom: 8px;
+            font-weight: 500;
+            line-height: 1.2;
+            color: $theme-color;
+            a{
+                color: $theme-color;
+                text-decoration: none;
+            }
+        }
+        .meta {
+            color: #b3b3b3;
+            font-size: 14px;
+            a{
+                color: $theme-color;
+                text-decoration: none;
+            }
+        }
+        p{
+            line-height: 1.7;
+            color: #4d4d4d;
+            font-weight: 400;
+            font-size: 16px;
+            margin-top: 0;
+            margin-bottom: 16px;
+            a{
+                color: $theme-color;
+                text-decoration: none;
+            }
+        }
+    }
+}
